@@ -36,6 +36,7 @@
         <model.mapper.version>2.4.5</model.mapper.version>
         <hibernate.core.version>6.3.1.Final</hibernate.core.version>
         <hibernate.entity.manager.version>5.6.15.Final</hibernate.entity.manager.version>
+        <swagger.version>2.2.20</swagger.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -143,6 +144,11 @@
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-jackson</artifactId>
             <version>${jjwt.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger.core.v3</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>${swagger.version}</version>
         </dependency>
     </dependencies>
 
